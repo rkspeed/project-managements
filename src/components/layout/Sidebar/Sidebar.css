@@ -1,0 +1,18 @@
+.sidebar {
+    flex-shrink: 0;
+    overflow-x: hidden;
+}
+
+.sidebar.open {
+    width: 240px;
+    transition: width 0.3s;
+}
+
+.sidebar.closed {
+    width: 70px;
+    transition: width 0.3s;
+}
+
+.sidebar-list-container {
+    margin-top: 64px;
+}

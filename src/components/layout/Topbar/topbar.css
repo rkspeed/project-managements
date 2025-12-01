@@ -1,0 +1,34 @@
+/* AppBar root styling */
+.topbar-appbar {
+  z-index: 2000 !important;
+}
+
+/* Toolbar layout */
+.topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Menu Button */
+.topbar-menu-btn {
+  color: #ffffff;
+  margin-right: 16px;
+}
+
+/* Right section */
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Icons on right */
+.topbar-icon-btn {
+  color: #ffffff;
+}
+
+/* Avatar */
+.topbar-avatar {
+  background-color: "secondary.main"
+}
