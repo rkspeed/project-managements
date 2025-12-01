@@ -1,0 +1,9 @@
+.layout-container {
+    display: flex;
+}
+
+.layout-main {
+    flex-grow: 1;
+    margin-top: 80px; 
+    padding: 24px;     
+}
