@@ -1,141 +1,141 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Wireless Headphones",
       "category": "Electronics",
       "price": 149.99,
       "stock": 35,
       "active": true,
       "rating": 4.5,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "High-quality wireless headphones with noise cancelling."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Gaming Mouse",
       "category": "Electronics",
       "price": 59.99,
       "stock": 80,
       "active": true,
       "rating": 4.2,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "RGB gaming mouse with precision tracking."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Office Chair",
       "category": "Furniture",
       "price": 249.99,
       "stock": 12,
-      "active": true,
+      "active": false,
       "rating": 4.7,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "Ergonomic office chair with adjustable lumbar support."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Bluetooth Speaker",
       "category": "Electronics",
       "price": 89.99,
       "stock": 50,
       "active": true,
       "rating": 4.4,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "Portable speaker with deep bass and long battery life."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Running Shoes",
       "category": "Fashion",
       "price": 129.99,
       "stock": 20,
       "active": true,
-      "rating": 4.0,
-      "image": "https://via.placeholder.com/200",
+      "rating": 4,
+      "image": "./../image.png",
       "description": "Lightweight running shoes suitable for all terrains."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Smartwatch",
       "category": "Electronics",
       "price": 199.99,
       "stock": 17,
       "active": true,
       "rating": 4.3,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "Smartwatch with fitness tracking and notifications."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Laptop Stand",
       "category": "Accessories",
       "price": 39.99,
       "stock": 100,
       "active": true,
       "rating": 4.1,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "Adjustable laptop stand for better posture."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Desk Lamp",
       "category": "Furniture",
       "price": 29.99,
       "stock": 60,
       "active": true,
       "rating": 4.6,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "LED desk lamp with brightness control."
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Backpack",
       "category": "Fashion",
       "price": 69.99,
       "stock": 40,
       "active": true,
       "rating": 4.2,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "Durable backpack suitable for travel and daily use."
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Mechanical Keyboard",
       "category": "Electronics",
       "price": 119.99,
       "stock": 25,
       "active": true,
       "rating": 4.8,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "Mechanical keyboard with customizable switches."
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Sunglasses",
       "category": "Fashion",
       "price": 49.99,
       "stock": 70,
       "active": true,
       "rating": 4.1,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "UV-protected stylish sunglasses."
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Yoga Mat",
       "category": "Fitness",
       "price": 39.99,
       "stock": 90,
       "active": true,
       "rating": 4.3,
-      "image": "https://via.placeholder.com/200",
+      "image": "./../image.png",
       "description": "Non-slip yoga mat with perfect cushioning."
     }
   ],
   "orders": [
     {
-      "id": 101,
+      "id": "101",
       "productId": 1,
       "customerName": "John Doe",
       "quantity": 2,
@@ -144,7 +144,7 @@
       "total": 299.98
     },
     {
-      "id": 102,
+      "id": "102",
       "productId": 3,
       "customerName": "Sarah Lee",
       "quantity": 1,
@@ -153,7 +153,7 @@
       "total": 249.99
     },
     {
-      "id": 103,
+      "id": "103",
       "productId": 6,
       "customerName": "Michael Brown",
       "quantity": 1,
@@ -162,7 +162,7 @@
       "total": 199.99
     },
     {
-      "id": 104,
+      "id": "104",
       "productId": 10,
       "customerName": "Emily White",
       "quantity": 1,
@@ -171,7 +171,7 @@
       "total": 119.99
     },
     {
-      "id": 105,
+      "id": "105",
       "productId": 7,
       "customerName": "David Carter",
       "quantity": 3,
@@ -180,7 +180,7 @@
       "total": 119.97
     },
     {
-      "id": 106,
+      "id": "106",
       "productId": 8,
       "customerName": "Sophia Green",
       "quantity": 2,
@@ -189,7 +189,7 @@
       "total": 59.98
     },
     {
-      "id": 107,
+      "id": "107",
       "productId": 4,
       "customerName": "Liam Johnson",
       "quantity": 1,
@@ -198,7 +198,7 @@
       "total": 89.99
     },
     {
-      "id": 108,
+      "id": "108",
       "productId": 12,
       "customerName": "Olivia Wilson",
       "quantity": 2,
@@ -207,7 +207,7 @@
       "total": 79.98
     },
     {
-      "id": 109,
+      "id": "109",
       "productId": 5,
       "customerName": "William Smith",
       "quantity": 1,
@@ -216,7 +216,7 @@
       "total": 129.99
     },
     {
-      "id": 110,
+      "id": "110",
       "productId": 2,
       "customerName": "Ava Martinez",
       "quantity": 1,

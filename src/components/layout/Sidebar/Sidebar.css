@@ -1,6 +1,7 @@
 .sidebar {
     flex-shrink: 0;
     overflow-x: hidden;
+    
 }
 
 .sidebar.open {
