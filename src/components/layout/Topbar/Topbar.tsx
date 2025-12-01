@@ -2,7 +2,7 @@ import { AppBar, Toolbar, Box, IconButton, Avatar } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import ThemeToggle from "../../common/ThemeToggle";
-import "./topbar.css";
+import "./Topbar.css";
 
 interface TopbarProps {
   toggleSidebar: () => void;
