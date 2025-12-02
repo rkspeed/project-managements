@@ -1,5 +1,6 @@
 import ProductDetails from "../features/products/productDetails/ProductDetails";
 
-export default function ProductsPage() {
+const ProductsPage = () => {
   return <ProductDetails />;
 }
+export default ProductsPage;

@@ -27,7 +27,7 @@
       "name": "Office Chair",
       "category": "Furniture",
       "price": 249.99,
-      "stock": 12,
+      "stock": 18,
       "active": false,
       "rating": 4.7,
       "image": "./../image.png",

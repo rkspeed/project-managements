@@ -1,7 +1,7 @@
-import React from 'react';
+import DashboardPage from '../features/dashboard/DashboardPage';
 
-const DashboardPage: React.FC = () => {
-  return <text>sdxs</text>;
+const Dashboard = () => {
+  return <DashboardPage />;
 };
 
-export default DashboardPage;
+export default Dashboard;

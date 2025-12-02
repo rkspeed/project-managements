@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import DashboardPage from './pages/DashboardPage';
 import ProductsPage from './pages/ProductsPage';
@@ -6,7 +5,7 @@ import ProductDetailsPage from './pages/ProductDetailsPage';
 import Layout from './components/layout/Layout';
 import ThemeModeProvider from './context/ThemeContext';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <ThemeModeProvider>
       <Router>
